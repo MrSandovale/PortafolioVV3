@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portafolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="less/style.less">
+    <script src="script.js"></script>
+  </head>
+  <body>
+  {{>header}}
+    <main>
+      <section>
+        <h2>Sobre mí</h2>
+        <p>David Ramirez es un desarrollador web con más de 5 años de experiencia en el campo de la tecnología. Desde joven, siempre ha sentido una gran pasión por la informática y la programación. Después de graduarse de la universidad, comenzó a trabajar en una pequeña empresa de desarrollo web, donde tuvo la oportunidad de aprender de los mejores profesionales del sector.
+
+            Durante su carrera, David ha trabajado en una amplia variedad de proyectos, desde pequeñas páginas web hasta grandes aplicaciones empresariales. Ha desarrollado habilidades en lenguajes de programación como HTML, CSS, JavaScript, PHP y Python, y ha trabajado con una variedad de herramientas y tecnologías de desarrollo web.
+            
+            En su tiempo libre, David disfruta de la lectura de libros de programación y la experimentación con nuevas tecnologías. También es un ávido jugador de videojuegos y le gusta pasar tiempo con su familia y amigos.
+            
+            Si estás buscando un desarrollador web con habilidades técnicas sólidas y una pasión por la programación, David Ramirez es la persona adecuada para ti. ¡No dudes en contactarlo para discutir tus necesidades de desarrollo web!</p>
+            <h2>Proyectos</h2>
+      </section>
+<section class="proyectos">
+    <div class="proyecto">
+        <img src="/img/img1.jpg" alt="Proyecto 1">
+        <h3>Blog Personal Interactivo</h3>
+        <p>Crea tu espacio personal en línea con un blog interactivo. Comparte tus experiencias, pensamientos y aprendizajes en un diseño atractivo y fácil de usar.</p>
+    </div>
+    <div class="proyecto">
+        <img src="/img/img2.jpg" alt="Proyecto 2">
+        <h3>Plataforma de Comercio Electrónico para Arte Local</h3>
+        <p>Impulsa a artistas locales proporcionándoles una plataforma para vender sus creaciones en línea. La plataforma incluirá galerías de productos, opciones de pago seguras y un sistema de calificación.</p>
+    </div>
+    <div class="proyecto">
+        <img src="/img/img3.jpg" alt="Proyecto 3">
+        <h3>Sistema de Gestión de Proyectos Colaborativos</h3>
+        <p>Simplifica la colaboración en proyectos con un sistema integral. Gestiona tareas, asigna roles, y fomenta la comunicación entre miembros del equipo para una ejecución eficiente de proyectos.</p>
+    </div>
+    <div class="proyecto">
+        <img src="/img/img4.jpg" alt="Proyecto 4">
+        <h3>Aplicación de Aprendizaje en Línea</h3>
+        <p>Facilita el aprendizaje en línea con una aplicación interactiva. Ofrece cursos, evaluaciones y foros de discusión para una experiencia educativa completa y personalizada.</p>
+    </div>
+    <div class="proyecto">
+        <img src="/img/img5.jpg" alt="Proyecto 5">
+        <h3>Plataforma de Reservas para Eventos Locales</h3>
+        <p>Ayuda a la comunidad local a descubrir y reservar eventos cercanos. Desde conciertos hasta clases de yoga, la plataforma simplifica la planificación y participación en eventos locales.</p>
+    </div>
+    <div class="proyecto">
+        <img src="/img/img6.jpg" alt="Proyecto 6">
+        <h3>Red Social para Entusiastas de Viajes</h3>
+        <p>Conecta a amantes de los viajes en una red social dedicada. Comparte experiencias, recomienda destinos y planifica viajes con una comunidad apasionada por explorar el mundo.</p>
+    </div>
+</section>
+
+    <section class="contacto">
+    <h2>Contacto</h2>
+    <ul>
+        <li>Correo electrónico: <a href="mailto:DavidRamirez@gmail.com">DavidRamirez@gmail.com</a></li>
+        <li>Teléfono: <a href="tel:+50488888888">+50488888888</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com">David Ramirez.</a></li>
+    </ul>
+    <div class="comentarios">
+        <label for="comentarios">Añadir un comentario:</label>
+        <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe aquí tu comentario..."></textarea>
+        <button onclick="enviarComentario()">Enviar Comentario</button>
+    </div>
+</section>
+    </main>
+  </body>
+  {{>footer}}
+</html>
